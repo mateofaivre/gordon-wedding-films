@@ -1,0 +1,41 @@
+$gt-eesti: 'GT Eesti Pro Display', sans-serif;
+$voyage: 'Voyage', sans-serif;
+
+$black: black;
+$white: white;
+
+$gdn-pink: #D96E6F;
+$highlight: $gdn-pink;
+
+//$main-bg: #DC082F;
+//$secondary-bg: #f2f2f2;
+//$main-screen-bg: #98cb98;
+//$secondary-screen-bg: #9e9d9d;
+//$infos-green-screen: #0E4035;
+//$main-btns: #585858;
+//$square-btns: #7ca9f7;
+//$green-screen: #5EC481;
+
+$easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+$easeOutQuad: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+$transitionEase: $easeInOutQuad;
+
+/* -------- Z-indexes -------- */
+$content_depth: 100;
+$menu_depth: 200;
+$menu_mobile_depth: 300;
+$loader_depth: 500;
+
+/* -------- Responsive -------- */
+
+// Small desktops
+$mediumMin: 1281px;
+$mediumMax: 1280px;
+
+// Mobile limit
+$mobileMin: 961px;
+$mobileMax: 960px;
+
+// Small (smartphones)
+$smallMin: 501px;
+$smallMax: 500px;
