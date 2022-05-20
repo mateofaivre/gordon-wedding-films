@@ -1,0 +1,14 @@
+[debug] [2022-05-19T20:20:09.941Z] ----------------------------------------------------------------------
+[debug] [2022-05-19T20:20:09.942Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2022-05-19T20:20:09.942Z] CLI Version:   11.0.0
+[debug] [2022-05-19T20:20:09.942Z] Platform:      darwin
+[debug] [2022-05-19T20:20:09.942Z] Node Version:  v16.15.0
+[debug] [2022-05-19T20:20:09.945Z] Time:          Thu May 19 2022 22:20:09 GMT+0200 (Central European Summer Time)
+[debug] [2022-05-19T20:20:09.945Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-19T20:20:09.986Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-19T20:20:09.986Z] > authorizing via signed-in user (mateofaivre2@gmail.com)
+[debug] [2022-05-19T20:20:09.986Z] [iam] checking project gordon-wedding-films for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-19T20:20:09.987Z] > refreshing access token with scopes: []
+[debug] [2022-05-19T20:20:09.987Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
