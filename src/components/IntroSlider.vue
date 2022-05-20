@@ -3,11 +3,10 @@
 		<div class="intro_slider-slide" v-for="index in introSlider.imgs.length" :key="index" :data-color="introSlider.colors[ index - 1 ]">
 			<div class="intro_slider-title_wrapper">
 				<h2 class="intro_slider-title">{{ introSlider.titles[ index - 1 ] }}</h2>
-				<!--				<a href="#contact" class="intro_slider-contact">Contact</a>-->
 			</div>
 			<figure class="intro_slider-image">
 				<picture>
-					<img :src=" '/assets/img/' + introSlider.imgs[ index - 1 ]" data-src="" alt="" class="img-lazy">
+					<img v-lazy="'/assets/img/' + introSlider.imgs[ index - 1 ]" data-src="" alt="" class="lazy">
 				</picture>
 				<noscript><img src="" alt=""></noscript>
 			</figure>

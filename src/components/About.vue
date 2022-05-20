@@ -12,7 +12,7 @@
 				</div>
 			</div>
 			<div class="about--img">
-				<img :src=" '/assets/img/' + about.img" alt="">
+				<img v-lazy=" '/assets/img/' + about.img" alt="" class="lazy">
 			</div>
 
 		</div>

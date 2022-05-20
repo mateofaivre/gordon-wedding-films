@@ -69,8 +69,7 @@ export default {
 <style scoped lang="scss">
 .contact__wrapper {
 	width: 100%;
-	margin-bottom: 150px;
-	padding: 0px 0px 30px 0px;
+	padding: 0px 0px 160px 0px;
 	overflow: hidden;
 }
 
@@ -176,7 +175,7 @@ export default {
 	.contact__wrapper {
 		padding-left: 15px;
 		padding-right: 15px;
-		margin-bottom: 100px;
+		padding-bottom: 100px;
 	}
 
 	.contact__title {

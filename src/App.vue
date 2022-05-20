@@ -20,6 +20,12 @@ import Header from './components/Header'
 
 export default {
 	name:       'App',
+	metaInfo:   {
+		// if no subcomponents specify a metaInfo.title, this title will be used
+		title: '🪄',
+		// all titles will be injected into this template
+		titleTemplate: '%s | Gordon Wedding Films'
+	},
 	components: {
 		Header
 	},
@@ -49,12 +55,21 @@ body {
 	}
 }
 
-.img-lazy {
-	transition: opacity 1s $easeInOutQuad;
+img[lazy=loading] {
+	opacity: 0;
+	/*your style here*/
+}
+img[lazy=error] {
+	/*your style here*/
+}
+img[lazy=loaded] {
+	opacity: 1;
+	/*your style here*/
+}
 
-	&.img-loaded {
-		opacity: 1;
-	}
+.lazy {
+	opacity: 0;
+	transition: opacity 1s $easeInOutQuad;
 }
 
 .logo {

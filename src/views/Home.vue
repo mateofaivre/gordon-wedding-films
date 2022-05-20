@@ -20,6 +20,9 @@ import Footer from "../components/Footer";
 
 export default {
 	name: 'Home',
+	metaInfo: {
+		title: 'Accueil'
+	},
 	data() {
 		return {}
 	},

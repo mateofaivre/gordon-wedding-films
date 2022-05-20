@@ -5,7 +5,7 @@
 				<figure>
 					<!--										<img src="https://folks-folks.com/wp-content/uploads/2022/01/MRT6071-scaled-e1642762609595.jpg" alt=""/>-->
 
-					<video loop muted :src=" '/assets/videos/' + realizations.slide.videos[index - 1]"/>
+					<LazyVideo :attrs="{controls: false, loop: true, muted: true}" :src=" '/assets/videos/' + realizations.slide.videos[index - 1]"/>
 					<!--					<div class="realizations__menu&#45;&#45;item&#45;&#45;video" style="padding:56.25% 0 0 0;position:relative;">-->
 					<!--						<iframe src="https://player.vimeo.com/video/223557114?h=83155e32df&autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>-->
 					<!--					</div>-->
